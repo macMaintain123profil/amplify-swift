@@ -9,11 +9,11 @@ let platforms: [SupportedPlatform] = [
     .watchOS(.v9)
 ]
 let dependencies: [Package.Dependency] = [
-    .package(url: "https://github.com/macMaintain123profil/aws-sdk-swift.git", branch: "compileiOS12"),
+    .package(url: "https://github.com/macMaintain123profil/aws-sdk-swift.git", branch: "compile_ios12"),
     .package(url: "https://github.com/aws-amplify/aws-appsync-realtime-client-ios.git", from: "3.0.0"),
     .package(url: "https://github.com/stephencelis/SQLite.swift.git", exact: "0.13.2"),
     .package(url: "https://github.com/mattgallagher/CwlPreconditionTesting.git", from: "2.1.0"),
-    .package(url: "https://github.com/macMaintain123profil/amplify-swift-utils-notifications.git", branch: "1_1_0_support12")
+    .package(url: "https://github.com/macMaintain123profil/amplify-swift-utils-notifications.git", branch: "compile_ios12")
 ]
 
 let amplifyTargets: [Target] = [
